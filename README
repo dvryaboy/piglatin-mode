@@ -1,0 +1,8 @@
+This is a simple mode that enables basic syntax highlighting for 
+the PigLatin data processing language (see http://hadoop.apache.org/pig 
+for details).
+
+It will automatically highlight any file with a .pig extension.
+
+To enable, just add something like the following to your .emacs file:
+(load-file "/path/to/piglatin.el")
