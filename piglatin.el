@@ -22,6 +22,8 @@
   (require 'regexp-opt))
 
 (defvar piglatin-mode-hook nil)
+
+;;;###autoload
 (add-to-list 'auto-mode-alist '("\\.pig\\'" . piglatin-mode))
 
 (defvar piglatin-indent-level 2
@@ -49,6 +51,7 @@
     piglatin-mode-syntax-table)
   "Syntax table for piglatin-mode")
 
+;;;###autoload
 (defun piglatin-mode ()
   "Mode for editing PigLatin files"
   (interactive)
